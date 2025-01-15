@@ -1,62 +1,53 @@
-Negocio de Impresión 3D
-Este proyecto es una aplicación web diseñada para exhibir productos impresos en 3D. Permite a los usuarios explorar diferentes productos, ver detalles y obtener información sobre precios.
+# PikaLabs Página Web
 
-Estructura del Proyecto
-php
-Copiar código
-negocio-impresion-3d
-├── public
-│   ├── index.html         # Documento HTML principal
-│   ├── styles.css         # Estilos para la aplicación web
-│   └── scripts.js         # JavaScript para la interactividad
-├── src
-│   ├── components
-│   │   ├── ProductCard.js # Componente para mostrar información individual de un producto
-│   │   └── ProductList.js # Componente para renderizar una lista de productos
-│   ├── pages
-│   │   ├── HomePage.js    # Componente para la página de inicio
-│   │   └── ProductPage.js # Componente para mostrar información detallada de un producto
-│   └── App.js             # Componente principal de la aplicación
-├── package.json           # Archivo de configuración de npm
-├── .gitignore             # Archivos y directorios que Git debe ignorar
-└── README.md              # Documentación del proyecto
-Funcionalidades
-Mostrar una lista de productos impresos en 3D con imágenes y precios.
-Páginas detalladas para cada producto individual.
-Diseño responsivo para diferentes dispositivos.
-Instrucciones de Configuración
-Clona el repositorio:
-bash
-Copiar código
-git clone <url-del-repositorio>
-Accede al directorio del proyecto:
-bash
-Copiar código
-cd negocio-impresion-3d
-Instala las dependencias:
-Copiar código
-npm install
-Inicia el servidor de desarrollo:
-sql
-Copiar código
-npm start
-Uso
-Visita la página de inicio para explorar productos destacados.
-Haz clic en un producto para ver más detalles y su precio.
-Explora la aplicación para descubrir diferentes productos impresos en 3D.
-Contribuciones
-¡Las contribuciones son bienvenidas! Por favor, abre un issue o envía un pull request para cualquier mejora o corrección de errores.
+Este proyecto es una página web creada para **PikaLabs**, un emprendimiento dedicado a la fabricación de productos impresos en 3D. La página está desarrollada utilizando únicamente **Vanilla JS**, sin ningún framework, para asegurar la máxima simplicidad y control del código.
 
-Proyecto de Impresiones 3D
-Progreso Actual
-index.html: Estructura básica de la página con un encabezado, contenido principal y pie de página.
-styles.css: Estilos para la página, incluyendo diseño responsivo y efectos de hover.
-scripts.js: Script para generar dinámicamente las tarjetas de productos.
-Próximos Pasos
-Mejorar el diseño visual de las tarjetas.
-Agregar enlaces a las tarjetas de productos.
-Implementar una barra de navegación.
-Agregar un pie de página con información de contacto y enlaces a redes sociales.
-Optimizar para SEO.
-Estructura de Archivos
-Incluye una estructura clara y modular para facilitar futuras modificaciones y ampliaciones del proyecto.
+## Descripción
+
+La página tiene como objetivo mostrar los productos disponibles para la venta, proporcionar información sobre la marca y servir como punto de contacto para los clientes. Está diseñada para ser responsive, asegurando una buena experiencia en dispositivos móviles y de escritorio.
+
+## Tecnologías Usadas
+
+- **HTML**: Estructura de la página web.
+- **CSS**: Estilos para un diseño atractivo y moderno.
+- **JavaScript (Vanilla JS)**: Para la interacción dinámica con el usuario, incluyendo la gestión de productos y la navegación en la web.
+
+## Características
+
+- **Página de inicio**: Muestra una vista general de los productos.
+- **Página de productos**: Detalles de cada producto y opciones de compra.
+- **Interactividad**: Añadir productos al carrito y gestionar la selección.
+
+## Instalación
+
+1. Clona el repositorio a tu máquina local:
+
+    ```bash
+    git clone https://github.com/lucasborquez/pikalabspagina.git
+    ```
+
+2. Navega al directorio del proyecto:
+
+    ```bash
+    cd pikalabspagina
+    ```
+
+3. Abre el archivo `index.html` en tu navegador para ver la página web en acción.
+
+## Contribuciones
+
+Si deseas contribuir al proyecto, puedes abrir un "issue" o realizar un "pull request" con tus cambios.
+
+1. Forkea el repositorio.
+2. Crea una rama para tu nueva funcionalidad (`git checkout -b nueva-funcionalidad`).
+3. Haz commit de tus cambios (`git commit -am 'Añadir nueva funcionalidad'`).
+4. Empuja a tu rama (`git push origin nueva-funcionalidad`).
+5. Crea un pull request en el repositorio original.
+
+## Licencia
+
+Este proyecto es de código abierto y está bajo la Licencia MIT. Puedes usarlo, modificarlo y distribuirlo como desees, siempre que sigas los términos de la licencia.
+
+## Contacto
+
+Para preguntas o más información, puedes contactarme a través de mi [correo electrónico](mailto:lucasivanborquez@gmail.com).
